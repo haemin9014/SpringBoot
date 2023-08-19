@@ -1,20 +1,19 @@
 package com.assign2.assignment2;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertNull;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.assign2.assignment2.entities.Students;
-import com.assign2.assignment2.repo.repo;
+import com.assign2.assignment2.repo.Repo;
 
 @SpringBootTest
 class Assignment2ApplicationTests {
 
 	@Autowired
-	private repo repo;
+	private Repo repo;
 
 	@Test
 	void testCRUD() {
